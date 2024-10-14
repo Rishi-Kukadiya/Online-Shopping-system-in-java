@@ -1,8 +1,10 @@
 // Home page for the online shopping system
 import clear.clear;
+import forgot.ForgotInfo;
 import java.util.Scanner;
 import login.login;
 import register.Main;
+
 
 public class Home {
 
@@ -19,6 +21,11 @@ public class Home {
                 // Logic behind logging in the user
                 isFound = login.lg();
                 break;
+            }
+
+            case 3->{
+                //logic behind the fogot of the password of the user
+                isFound = ForgotInfo.forget();
             }
             default -> throw new AssertionError("Invalid choice, please try again.");
         }
@@ -73,8 +80,9 @@ public class Home {
                     printHeader();
 
                     System.out.println("\nIt seems we couldn't find your account.");
-                    System.out.println("1 : Register your Account");
-                    System.out.println("2 : Try Again to Log In");
+                    System.out.println("1 : Register your Account ");
+                    System.out.println("2 : Try Again to Log In   ");
+                    System.out.println("3 : Forgot the Password   ");
                     System.out.println("---------------------------------------------------");
                     System.out.print("Please enter your choice: ");
 
