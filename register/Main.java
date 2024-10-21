@@ -1,7 +1,6 @@
 package register;
 import clear.clear; // Assuming this is a custom class for clearing the screen
 import java.util.Scanner;
-
 public class Main {
 
     // Refactor the input validation into separate methods

@@ -1,4 +1,5 @@
-// Home page for the online shopping system
+import Listing.list;
+import Sports.Sports;
 import clear.clear;
 import forgot.ForgotInfo;
 import java.util.Scanner;
@@ -107,5 +108,34 @@ public class Home {
 
             clear.clc();
             printName(isPresent);
+            System.out.println("");
+
+
+            //printing the menu
+            list.sp(isPresent, "Data\\menu.txt", "============== Discover Something You'll Love Today! ===============");
+            byte Category = sc.nextByte();
+            switch (Category) {
+                case 1 -> {
+                    //sports data
+                    Sports.sp(isPresent);
+                }
+                case 2 -> {
+                }
+                case 3 ->{
+                }
+                case 4->{
+
+                }
+                case 5->{
+
+                }
+                case 6->{
+
+                }
+                case 7->{
+
+                }
+                default -> throw new AssertionError("Invalid choice, please try again.");
+            }
     }
 }
