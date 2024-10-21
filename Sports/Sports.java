@@ -1,6 +1,9 @@
 package Sports;
 import Listing.list;
+import Sports.Badminton.Badminton;
 import Sports.Cricate.Cricate;
+import Sports.Football.FootBall;
+import Sports.Tennis.Tenish;
 import java.util.Scanner;
 
 public class  Sports{
@@ -14,13 +17,16 @@ public class  Sports{
                     Cricate.cr(UserName);
                 }
                 case 2 -> {
-
+                    //Data for the Football
+                    FootBall.fb(UserName);
                 }
                 case 3->{
-
+                    //Data for the Badminton
+                    Badminton.bm(UserName);
                 }
                 case 4->{
-
+                    //Data for the Tenis
+                    Tenish.tn(UserName);
                 }
                 default -> throw new AssertionError("Invalid choice, please try again.");
             }

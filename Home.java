@@ -120,19 +120,24 @@ public class Home {
                     Sports.sp(isPresent);
                 }
                 case 2 -> {
+                    //Data for the puja
                 }
                 case 3 ->{
+                    //Data for the snacks
                 }
                 case 4->{
-
+                    //Data for the freshVrgetable
                 }
                 case 5->{
+                    //Data for the Gfts
 
                 }
                 case 6->{
+                    //Data for the DryFruits
 
                 }
                 case 7->{
+                    //Data for the IndiaSweets
 
                 }
                 default -> throw new AssertionError("Invalid choice, please try again.");

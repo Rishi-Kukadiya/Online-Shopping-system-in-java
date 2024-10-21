@@ -1,6 +1,9 @@
 package Sports.Cricate;
 import Listing.list;
+import Sports.Cricate.Ball.Ball;
 import Sports.Cricate.Bat.Bat;
+import Sports.Cricate.Gloves.Gv;
+import Sports.Cricate.Helmet.Helmet;
 import java.util.Scanner;
 public class Cricate {
     public static void cr(String UserName){
@@ -13,13 +16,16 @@ public class Cricate {
                     Bat.bt(UserName);
                 }
                 case 2 -> {
-
+                    //Data for the Ball
+                    Ball.ball(UserName);
                 }
                 case 3->{
-
+                    //Data for the Gloves
+                    Gv.golf(UserName);
                 }
                 case 4->{
-
+                    //Data for the Helmet
+                    Helmet.hem(UserName);
                 }
                 default -> throw new AssertionError("Invalid choice, please try again.");
             }
