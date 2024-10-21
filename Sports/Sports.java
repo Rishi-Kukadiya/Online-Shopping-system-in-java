@@ -1,5 +1,6 @@
 package Sports;
 import Listing.list;
+import Sports.Cricate.Cricate;
 import java.util.Scanner;
 
 public class  Sports{
@@ -10,6 +11,7 @@ public class  Sports{
             switch (choise) {
                 case 1 -> {
                     //Data for the cricate
+                    Cricate.cr(UserName);
                 }
                 case 2 -> {
 
