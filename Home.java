@@ -9,6 +9,7 @@ import Snacks.Snacks;
 import Sports.Sports;
 import clear.clear;
 import forgot.ForgotInfo;
+import java.io.File;
 import java.util.Scanner;
 import login.login;
 import register.Main;
@@ -167,7 +168,7 @@ public class Home {
         // Entering the price
         @SuppressWarnings("unused")
         double price;
-        System.out.println("Please Pay Your Bill : ");
+        System.out.print("Please Pay Your Bill : ");
         price = sc.nextDouble();
 
         // Thank you messages printing ;
@@ -182,6 +183,13 @@ public class Home {
 
         for (String line : thankYouPattern) {
             System.out.println(line);
+        }
+
+        //remove the txt file from the addtocart
+        try {
+            File file = new File("Billing\\addtocart.txt");
+            file.delete();
+        } catch (Exception e) {
         }
 
     }

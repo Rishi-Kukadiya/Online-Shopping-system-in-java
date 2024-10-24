@@ -19,7 +19,7 @@ public class sonpapdi {
             byte choise = sc.nextByte();
             switch (choise) {
                 case 1 -> {
-                    String path = "Data\\IndianSweets\\soanpapdi\\Haldiram\\Haldiram.txt";
+                    String path = "Data\\IndianSweets\\SoanPapdi\\Haldiram\\Haldiram.txt";
                     Price.mrp(path, UserName);
                     byte product = sc.nextByte();
                     System.out.print("How many Quntity u Needed : ");
@@ -28,7 +28,7 @@ public class sonpapdi {
                 }
                 case 2 -> {
                     // Data for the Bikhaji
-                    String path = "Data\\IndianSweets\\soanpapdi\\Bikhaji\\Bikhaji.txt";
+                    String path = "Data\\IndianSweets\\SoanPapdi\\Bikhaji\\Bikhaji.txt";
                     Price.mrp(path, UserName);
                     byte product = sc.nextByte();
                     System.out.print("How many Quntity u Needed : ");
@@ -37,7 +37,7 @@ public class sonpapdi {
                 }
                 case 3 -> {
                     // Data for the K.C.DAS
-                    String path = "Data\\IndianSweets\\soannpapdi\\PatelBrothers\\PatelBrothers.txt";
+                    String path = "Data\\IndianSweets\\SoanPapdi\\PatelBrothers\\PatelBrothers.txt";
                     Price.mrp(path, UserName);
                     byte product = sc.nextByte();
                     System.out.print("How many Quntity u Needed : ");
@@ -46,7 +46,7 @@ public class sonpapdi {
                 }
                 case 4 -> {
                     // Data for the Bikanervalla
-                    String path = "Data\\IndianSweets\\soapapdi\\Bikano\\Bikano.txt";
+                    String path = "Data\\IndianSweets\\SoanPapdi\\Bikano\\Bikano.txt";
                     Price.mrp(path, UserName);
                     byte product = sc.nextByte();
                     System.out.print("How many Quntity u Needed : ");
