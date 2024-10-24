@@ -6,3 +6,5 @@ NutrajWalnuts:1500:1
 AmazonFreshOnion:70:1
 AmazonFreshOnion:100:1
 CricketBallKookaburra:400:10
+CricketBatMRF:0:0
+AdidasGloves:3700:10

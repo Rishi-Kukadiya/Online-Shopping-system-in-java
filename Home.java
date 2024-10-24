@@ -183,5 +183,6 @@ public class Home {
         for (String line : thankYouPattern) {
             System.out.println(line);
         }
+
     }
 }
