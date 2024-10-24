@@ -56,7 +56,7 @@ public class sonpapdi {
                 case 5 -> {
                     exists = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
+               
             }
         }
     }

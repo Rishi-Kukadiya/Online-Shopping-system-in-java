@@ -53,7 +53,6 @@ public class Popcorn {
                 case 5 -> {
                     exists = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
             }
         }
 

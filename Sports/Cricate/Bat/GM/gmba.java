@@ -18,7 +18,7 @@ public class gmba {
                 case 4 -> productInfo = "CricketBatGM:4000:" + quantity;
                 case 5 -> productInfo = "CricketBatGM:5000:" + quantity;
                 // case 6 -> productInfo = "CricketBatGM:1000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketBatGM:0:" + 0;
             }
 
             writer.write(productInfo);

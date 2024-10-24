@@ -18,7 +18,7 @@ public class mrfb {
                 case 4 -> productInfo = "CricketBallMRF:350:" + quantity;
                 case 5 -> productInfo = "CricketBallMRF:700:" + quantity;
                 case 6 -> productInfo = "CricketBallMRF:800:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketBallMRF:0:" + 0;
             }
 
             writer.write(productInfo);

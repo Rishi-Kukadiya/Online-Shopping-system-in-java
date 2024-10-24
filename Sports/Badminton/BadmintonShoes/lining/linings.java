@@ -18,7 +18,7 @@ public class linings {
                 case 4 -> productInfo = "badmintonShoesLinings:3200:" + quantity;
                 case 5 -> productInfo = "badmintonShoesLinings:4800:" + quantity;
                 case 6 -> productInfo = "badmintonShoesLinings:5700:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "badmintonShoesLinings:0:" + 0;
             }
 
             writer.write(productInfo);

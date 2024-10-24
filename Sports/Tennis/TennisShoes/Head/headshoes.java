@@ -18,7 +18,7 @@ public class headshoes {
                 case 4 -> productInfo = "TennisShoesHead:4500:" + quantity;
                 case 5 -> productInfo = "TennisShoesHead:7500:" + quantity;
                 case 6 -> productInfo = "TennisShoesHead:8500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "TennisShoesHead:0:" + 0;
             }
 
             writer.write(productInfo);

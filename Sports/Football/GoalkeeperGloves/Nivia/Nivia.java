@@ -18,7 +18,7 @@ public class Nivia {
                 case 4 -> productInfo = "NiviaGloves:800:" + quantity;
                 case 5 -> productInfo = "NiviaGloves:1300:" + quantity;
                 case 6 -> productInfo = "NiviaGloves:1600:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "NiviaGloves:0:" + 0;
             }
 
             writer.write(productInfo);

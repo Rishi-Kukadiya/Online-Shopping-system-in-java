@@ -17,8 +17,8 @@ public class ssg {
                 case 3 -> productInfo = "CricketGlovesSS:1800:" + quantity;
                 case 4 -> productInfo = "CricketGlovesSS:1200:" + quantity;
                 case 5 -> productInfo = "CricketGlovesSS:1900:" + quantity;
-                case 6 -> productInfo = "CricketGlovesSS:2100:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                case 6 -> productInfo = "CricketGlovesSG:2300:" + quantity;
+                default -> productInfo = "CricketGlovesSG:0:" + 0;
             }
 
             writer.write(productInfo);

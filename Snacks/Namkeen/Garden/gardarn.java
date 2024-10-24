@@ -18,7 +18,7 @@ public class gardarn {
                 case 4 -> productInfo = "GardarnNamkeen:45:" + quantity;
                 case 5 -> productInfo = "GardarnNamkeen:60:" + quantity;
                 case 6 -> productInfo = "GardarnNamkeen:70:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "GardarnNamkeen:0:" + 0;
             }
 
             writer.write(productInfo);

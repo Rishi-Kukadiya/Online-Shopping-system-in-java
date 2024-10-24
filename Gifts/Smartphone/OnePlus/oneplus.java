@@ -18,7 +18,7 @@ public class oneplus {
                 case 4 -> productInfo = "oneplusSmartPhone:35000:" + quantity;
                 case 5 -> productInfo = "oneplusSmartPhone:37000:" + quantity;
                 case 6 -> productInfo = "oneplusSmartPhone:52000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "oneplusSmartPhone:0:" + 0;
             }
 
             writer.write(productInfo);

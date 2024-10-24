@@ -20,7 +20,7 @@ public class paras {
                 case 4 -> productInfo = "ParasKumkum:110:" + quantity;
                 case 5 -> productInfo = "ParasKumkum:470:" + quantity;
                 case 6 -> productInfo = "ParasKumkum:360:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "ParasKumkum:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class pumashin {
                 case 4 -> productInfo = "PumaShinGuards:600:" + quantity;
                 case 5 -> productInfo = "PumaShinGuards:1100:" + quantity;
                 case 6 -> productInfo = "PumaShinGuards:1300:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "PumaShinGuards:0:" + 0;
             }
 
             writer.write(productInfo);

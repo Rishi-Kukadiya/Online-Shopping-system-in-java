@@ -18,7 +18,7 @@ public class kcdas {
                 case 4 -> productInfo = "kcdasRasgulla:200:" + quantity;
                 case 5 -> productInfo = "kcdasRasgulla:280:" + quantity;
                 case 6 -> productInfo = "kcdasRasgulla:320:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "kcdasRasgulla:0:" + 0;
             }
 
             writer.write(productInfo);

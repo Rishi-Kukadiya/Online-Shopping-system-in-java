@@ -18,7 +18,7 @@ public class addishin {
                 case 4 -> productInfo = "AdidasShinGuards:800:" + quantity;
                 case 5 -> productInfo = "AdidasShinGuards:1400:" + quantity;
                 case 6 -> productInfo = "AdidasShinGuards:1600:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "AdidasShinGuards:0:" + 0;
             }
 
             writer.write(productInfo);

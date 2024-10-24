@@ -36,7 +36,7 @@ public class Gifts {
                 case 6->{
                     exits = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
+                
             }
         }
     }

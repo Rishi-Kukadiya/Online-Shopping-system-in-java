@@ -18,7 +18,7 @@ public class bingopota {
                 case 4 -> productInfo = "BingoPotatoChips:60:" + quantity;
                 case 5 -> productInfo = "BingoPotatoChips:80:" + quantity;
                 case 6 -> productInfo = "BingoPotatoChips:90:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BingoPotatoChips:0:" + 0;
             }
 
             writer.write(productInfo);

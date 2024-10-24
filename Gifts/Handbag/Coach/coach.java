@@ -18,7 +18,7 @@ public class coach {
                 case 4 -> productInfo = "CoachHandbag:20000:" + quantity;
                 case 5 -> productInfo = "CoachHandbag:32000:" + quantity;
                 case 6 -> productInfo = "CoachHandbag:38000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CoachHandbag:0:" + 0;
             }
 
             writer.write(productInfo);

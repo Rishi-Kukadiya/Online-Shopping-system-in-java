@@ -20,7 +20,7 @@ public class theflowercomppany {
                 case 4 -> productInfo = "TheFlowerCompanyFlower:420:" + quantity;
                 case 5 -> productInfo = "TheFlowerCompanyFlower:1250:" + quantity;
                 case 6 -> productInfo = "TheFlowerCompanyFlower:1000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "TheFlowerCompanyFlower:0:" + 0;
             }
 
             writer.write(productInfo);

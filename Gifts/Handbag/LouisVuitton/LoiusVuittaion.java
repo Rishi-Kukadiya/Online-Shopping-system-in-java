@@ -18,7 +18,7 @@ public class LoiusVuittaion {
                 case 4 -> productInfo = "LoiusVuittationHandbag:80000:" + quantity;
                 case 5 -> productInfo = "LoiusVuittationHandbag:105000:" + quantity;
                 case 6 -> productInfo = "LoiusVuittationHandbag:110000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "LoiusVuittationHandbag:0:" + 0;
             }
 
             writer.write(productInfo);

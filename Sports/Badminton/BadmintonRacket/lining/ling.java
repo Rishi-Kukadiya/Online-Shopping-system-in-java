@@ -18,7 +18,7 @@ public class ling {
                 case 4 -> productInfo = "BadmintonRacketLining:1800:" + quantity;
                 case 5 -> productInfo = "BadmintonRacketLining:3300:" + quantity;
                 case 6 -> productInfo = "BadmintonRacketLining:3800:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BadmintonRacketLining:0:" + 0;
             }
 
             writer.write(productInfo);

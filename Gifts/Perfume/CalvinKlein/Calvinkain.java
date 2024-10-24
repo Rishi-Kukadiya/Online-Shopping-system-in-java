@@ -18,7 +18,7 @@ public class Calvinkain {
                 case 4 -> productInfo = "CalvinKainPerfume:1500:" + quantity;
                 case 5 -> productInfo = "CalvinKainPerfume:2700:" + quantity;
                 case 6 -> productInfo = "CalvinKainPerfume:2900:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CalvinKainPerfume:0:" + 0;
             }
 
             writer.write(productInfo);

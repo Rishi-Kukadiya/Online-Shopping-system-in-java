@@ -18,7 +18,7 @@ public class sshel {
                 case 4 -> productInfo = "CricketHelmetSS:1500:" + quantity;
                 case 5 -> productInfo = "CricketHelmetSS:2700:" + quantity;
                 case 6 -> productInfo = "CricketHelmetSS:3200:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketHelmetSS:0:" + 0;
             }
 
             writer.write(productInfo);

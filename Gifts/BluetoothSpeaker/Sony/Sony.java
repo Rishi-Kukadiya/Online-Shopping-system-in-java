@@ -18,7 +18,7 @@ public class Sony {
                 case 4 -> productInfo = "SonySpeaker:4000:" + quantity;
                 case 5 -> productInfo = "SonySpeaker:6500:" + quantity;
                 case 6 -> productInfo = "SonySpeaker:7500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "SonySpeaker:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class balbottgb {
                 case 4 -> productInfo = "TennisBagBablot:2100:" + quantity;
                 case 5 -> productInfo = "TennisBagBablot:4200:" + quantity;
                 case 6 -> productInfo = "TennisBagBablot:4700:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "TennisBagBablot:0:" + 0;
             }
 
             writer.write(productInfo);

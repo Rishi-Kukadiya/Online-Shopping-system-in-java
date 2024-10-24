@@ -18,7 +18,7 @@ public class urabanp {
                 case 4 -> productInfo = "UrbanplattlePistachios:800:" + quantity;
                 case 5 -> productInfo = "UrbanplattlePistachios:1300:" + quantity;
                 case 6 -> productInfo = "UrbanplattlePistachios:1500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "UrbanplattlePistachios:0:" + 0;
             }
 
             writer.write(productInfo);

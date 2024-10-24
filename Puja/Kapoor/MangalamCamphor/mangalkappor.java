@@ -20,7 +20,7 @@ public class mangalkappor {
                 case 4 -> productInfo = "MangalKappor:150:" + quantity;
                 case 5 -> productInfo = "MangalKappor:700:" + quantity;
                 case 6 -> productInfo = "MangalKappor:550:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "MangalKappor:0:" + 0;
             }
 
             writer.write(productInfo);

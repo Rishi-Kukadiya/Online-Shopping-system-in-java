@@ -20,7 +20,7 @@ public class Decormart {
                 case 4 -> productInfo = "DecomartDiya:400:" + quantity;
                 case 5 -> productInfo = "DecomartDiya:1300:" + quantity;
                 case 6 -> productInfo = "DecomartDiya:900:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "DecomartDiya:0:" + 0;
             }
 
             writer.write(productInfo);

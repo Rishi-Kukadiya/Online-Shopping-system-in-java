@@ -18,7 +18,7 @@ public class Casio {
                 case 4 -> productInfo = "CasioWristWatch:3000:" + quantity;
                 case 5 -> productInfo = "CasioWristWatch:5500:" + quantity;
                 case 6 -> productInfo = "CasioWristWatch:6500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CasioWristWatch:0:" + 0;
             }
 
             writer.write(productInfo);

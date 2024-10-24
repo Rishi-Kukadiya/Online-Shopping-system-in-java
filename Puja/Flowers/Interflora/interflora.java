@@ -20,7 +20,7 @@ public class interflora {
                 case 4 -> productInfo = "interFloraFlowers:500:" + quantity;
                 case 5 -> productInfo = "interFloraFlowers:1500:" + quantity;
                 case 6 -> productInfo = "interFloraFlowers:1300:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "interFloraFlowers:0:" + 0;
             }
 
             writer.write(productInfo);

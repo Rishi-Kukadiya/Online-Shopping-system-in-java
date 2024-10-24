@@ -20,7 +20,7 @@ public class zedbalck {
                 case 4 -> productInfo = "ZedBalckAggarbatti:500:" + quantity;
                 case 5 -> productInfo = "ZedBalckAggarbatti:1350:" + quantity;
                 case 6 -> productInfo = "ZedBalckAggarbatti:700:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "ZedBalckAggarbatti:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class mtr {
                 case 4 -> productInfo = "mtrGulabJamun:210:" + quantity;
                 case 5 -> productInfo = "mtrGulabJamun:290:" + quantity;
                 case 6 -> productInfo = "mtrGulabJamun:330:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "mtrGulabJamun:0:" + 0;
             }
 
             writer.write(productInfo);

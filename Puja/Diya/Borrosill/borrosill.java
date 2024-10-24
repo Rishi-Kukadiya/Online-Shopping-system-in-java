@@ -20,7 +20,7 @@ public class borrosill {
                 case 4 -> productInfo = "BorosillDiya:500:" + quantity;
                 case 5 -> productInfo = "BorosillDiya:1800:" + quantity;
                 case 6 -> productInfo = "BorosillDiya:1250:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BorosillDiya:0:" + 0;
             }
 
             writer.write(productInfo);

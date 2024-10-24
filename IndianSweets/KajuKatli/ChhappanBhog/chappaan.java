@@ -18,7 +18,7 @@ public class chappaan {
                 case 4 -> productInfo = "chappanBhogKajuKatli:700:" + quantity;
                 case 5 -> productInfo = "chappanBhogKajuKatli:900:" + quantity;
                 case 6 -> productInfo = "chappanBhogKajuKatli:1100:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "chappanBhogKajuKatli:0:" + 0;
             }
 
             writer.write(productInfo);

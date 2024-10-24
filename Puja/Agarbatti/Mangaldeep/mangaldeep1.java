@@ -18,7 +18,7 @@ public class mangaldeep1 {
                 case 4 -> productInfo = "Mangaldeep:300:" + quantity;
                 case 5 -> productInfo = "Mangaldeep:1000:" + quantity;
                 case 6 -> productInfo = "Mangaldeep:950:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo= "Mangaldeep:0:" + 0;
             }
 
             writer.write(productInfo);

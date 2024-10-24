@@ -18,7 +18,7 @@ public class relincep {
                 case 4 -> productInfo = "ReliancePotato:28:" + quantity;
                 case 5 -> productInfo = "ReliancePotato:60:" + quantity;
                 case 6 -> productInfo = "ReliancePotato:48:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "ReliancePotato:0:" + 0;
             }
 
             writer.write(productInfo);

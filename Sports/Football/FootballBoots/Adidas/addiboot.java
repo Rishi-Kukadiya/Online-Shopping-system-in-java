@@ -18,7 +18,7 @@ public class addiboot {
                 case 4 -> productInfo = "AddidasFootBallBoot:4000:" + quantity;
                 case 5 -> productInfo = "AddidasFootBallBoot:6500:" + quantity;
                 case 6 -> productInfo = "AddidasFootBallBoot:7500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "AddidasFootBallBoot:0:" + 0;
             }
 
             writer.write(productInfo);

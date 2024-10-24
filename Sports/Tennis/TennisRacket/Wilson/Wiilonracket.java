@@ -18,7 +18,7 @@ public class Wiilonracket {
                 case 4 -> productInfo = "TennisRacketWilson:5000:" + quantity;
                 case 5 -> productInfo = "TennisRacketWilson:7500:" + quantity;
                 case 6 -> productInfo = "TennisRacketWilson:8500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "TennisRacketWilson:0:"  + 0;
             }
 
             writer.write(productInfo);

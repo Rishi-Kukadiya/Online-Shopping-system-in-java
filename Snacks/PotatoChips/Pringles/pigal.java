@@ -18,7 +18,7 @@ public class pigal {
                 case 4 -> productInfo = "PigalPotatoChips:180:" + quantity;
                 case 5 -> productInfo = "PigalPotatoChips:220:" + quantity;
                 case 6 -> productInfo = "PigalPotatoChips:250:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "PigalPotatoChips:0:" + 0;
             }
 
             writer.write(productInfo);

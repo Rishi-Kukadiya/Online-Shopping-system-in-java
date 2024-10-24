@@ -18,7 +18,7 @@ public class Actll {
                 case 4 -> productInfo = "ActllPopcorn:45:" + quantity;
                 case 5 -> productInfo = "ActllPopcorn:60:" + quantity;
                 case 6 -> productInfo = "ActllPopcorn:55:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "ActllPopcorn:0:" + 0;
             }
 
             writer.write(productInfo);

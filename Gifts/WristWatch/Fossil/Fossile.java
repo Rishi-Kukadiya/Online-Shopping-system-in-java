@@ -18,7 +18,7 @@ public class Fossile {
                 case 4 -> productInfo = "FossileWatch:4000:" + quantity;
                 case 5 -> productInfo = "FossileWatch:7000:" + quantity;
                 case 6 -> productInfo = "FossileWatch:7500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "FossileWatch:0:" + 0;
             }
 
             writer.write(productInfo);

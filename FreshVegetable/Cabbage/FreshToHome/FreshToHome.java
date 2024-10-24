@@ -18,7 +18,7 @@ public class FreshToHome {
                 case 4 -> productInfo = "FreshToHomeCabbage:35:" + quantity;
                 case 5 -> productInfo = "FreshToHomeCabbage:60:" + quantity;
                 case 6 -> productInfo = "FreshToHomeCabbage:50:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default ->  productInfo = "FreshToHomeCabbage:0:" + 0;
             }
 
             writer.write(productInfo);

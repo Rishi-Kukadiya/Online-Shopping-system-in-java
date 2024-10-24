@@ -20,7 +20,7 @@ public class pp {
                 case 4 -> productInfo = "PurePrayerKapor:180:" + quantity;
                 case 5 -> productInfo = "PurePrayerKapor:750:" + quantity;
                 case 6 -> productInfo = "PurePrayerKapor:570:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "PurePrayerKapor:0:" + 0;
             }
 
             writer.write(productInfo);

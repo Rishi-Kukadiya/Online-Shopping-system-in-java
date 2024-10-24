@@ -18,7 +18,7 @@ public class nikefoot {
                 case 4 -> productInfo = "NikeFootBall:1200:" + quantity;
                 case 5 -> productInfo = "NikeFootBall:1900:" + quantity;
                 case 6 -> productInfo = "NikeFootBall:2200:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "NikeFootBall:0:" + 0;
             }
 
             writer.write(productInfo);

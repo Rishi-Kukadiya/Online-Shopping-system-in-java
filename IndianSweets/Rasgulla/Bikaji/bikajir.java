@@ -18,7 +18,7 @@ public class bikajir {
                 case 4 -> productInfo = "bikajiRasgulla:170:" + quantity;
                 case 5 -> productInfo = "bikajiRasgulla:250:" + quantity;
                 case 6 -> productInfo = "bikajiRasgulla:290:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "bikajiRasgulla:0:" + 0;
             }
 
             writer.write(productInfo);

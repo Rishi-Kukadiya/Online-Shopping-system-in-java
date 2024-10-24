@@ -18,7 +18,7 @@ public class pumaG {
                 case 4 -> productInfo = "PumaGloves:2100:" + quantity;
                 case 5 -> productInfo = "PumaGloves:3500:" + quantity;
                 case 6 -> productInfo = "PumaGloves:4000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "PumaGloves:0:" + 0;
             }
 
             writer.write(productInfo);

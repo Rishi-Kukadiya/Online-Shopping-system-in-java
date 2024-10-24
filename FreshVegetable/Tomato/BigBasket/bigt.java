@@ -18,7 +18,7 @@ public class bigt {
                 case 4 -> productInfo = "BigBasketTomato:60:" + quantity;
                 case 5 -> productInfo = "BigBasketTomato:90:" + quantity;
                 case 6 -> productInfo = "BigBasketTomato:110:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BigBasketTomato:0:" + 0;
             }
 
             writer.write(productInfo);

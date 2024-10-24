@@ -19,7 +19,7 @@ public class pureAg {
                 case 4 -> productInfo = "CyclePureAgarbatti:500:" + quantity;
                 case 5 -> productInfo = "CyclePureAgarbatti:1600:" + quantity;
                 case 6 -> productInfo = "CyclePureAgarbatti:1000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo="CyclePureAgarbatti:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class bikarnervala {
                 case 4 -> productInfo = "BikanerNamkeen:80:" + quantity;
                 case 5 -> productInfo = "BikanerNamkeen:110:" + quantity;
                 case 6 -> productInfo = "BikanerNamkeen:90:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BikanerNamkeen:0:" + 0;
             }
 
             writer.write(productInfo);

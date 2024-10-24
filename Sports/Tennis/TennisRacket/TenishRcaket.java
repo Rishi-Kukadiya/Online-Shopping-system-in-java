@@ -55,7 +55,6 @@ public class TenishRcaket {
                 case 6 -> {
                     exits = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
             }
         }
 

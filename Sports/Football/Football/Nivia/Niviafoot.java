@@ -18,7 +18,7 @@ public class Niviafoot {
                 case 4 -> productInfo = "NiviaFootBall:600:" + quantity;
                 case 5 -> productInfo = "NiviaFootBall:950:" + quantity;
                 case 6 -> productInfo = "NiviaFootBall:1100:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "NiviaFootBall:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class sunfest {
                 case 4 -> productInfo = "SunFestBiscuits:25:" + quantity;
                 case 5 -> productInfo = "SunFestBiscuits:35:" + quantity;
                 case 6 -> productInfo = "SunFestBiscuits:40:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "SunFestBiscuits:0:" + 0;
             }
 
             writer.write(productInfo);

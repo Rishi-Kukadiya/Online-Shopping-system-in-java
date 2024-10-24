@@ -18,7 +18,7 @@ public class haldiramk {
                 case 4 -> productInfo = "haldiramKajuKatli:600:" + quantity;
                 case 5 -> productInfo = "haldiramKajuKatli:850:" + quantity;
                 case 6 -> productInfo = "haldiramKajuKatli:950:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "haldiramKajuKatli:0:" + 0;
             }
 
             writer.write(productInfo);

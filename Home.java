@@ -127,22 +127,27 @@ public class Home {
                 }
                 case 2 -> {
                     // Data for the puja
+                    // Done
                     Pooja.pu(isPresent, sc);
                 }
                 case 3 -> {
                     // Data for the snacks
+                    // Done
                     Snacks.sn(isPresent, sc);
                 }
                 case 4 -> {
                     // Data for the freshVrgetable
+                    // Done
                     FreshVegetable.fv(isPresent, sc);
                 }
                 case 5 -> {
                     // Data for the Gifts
+                    // Done
                     Gifts.gf(isPresent, sc);
                 }
                 case 6 -> {
                     // Data for the DryFruits
+                    // Done
                     DryFruits.DryFruits1(isPresent, sc);
                 }
                 case 7 -> {
@@ -150,16 +155,33 @@ public class Home {
                     IndianSweets.Ins(isPresent, sc);
 
                 }
-                case 8 ->{
-                    exits = true ;
+                case 8 -> {
+                    exits = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
             }
         }
 
-        //printing the Billl
+        // printing the Billl
         clear.clc();
         Billing.printBill(isPresent);
-        //Entering the price
+        // Entering the price
+        @SuppressWarnings("unused")
+        double price;
+        System.out.println("Please Pay Your Bill : ");
+        price = sc.nextDouble();
+
+        // Thank you messages printing ;
+        clear.clc();
+        String[] thankYouPattern = {
+                "T T T T T    H     H       A       N     N   K    K      Y     Y     O O O O     U     U",
+                "    T        H     H      A A      N N   N   K   K        Y   Y     O       O    U     U",
+                "    T        H H H H     A A A     N  N  N   K K           Y Y      O       O    U     U",
+                "    T        H     H    A     A    N   N N   K   K          Y       O       O    U     U",
+                "    T        H     H   A       A   N     N   K    K         Y        O O O O      U U U"
+        };
+
+        for (String line : thankYouPattern) {
+            System.out.println(line);
+        }
     }
 }

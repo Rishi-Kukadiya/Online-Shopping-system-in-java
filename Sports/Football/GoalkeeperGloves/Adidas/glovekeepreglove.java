@@ -18,7 +18,7 @@ public class glovekeepreglove {
                 case 4 -> productInfo = "AdidasGloves:2300:" + quantity;
                 case 5 -> productInfo = "AdidasGloves:3700:" + quantity;
                 case 6 -> productInfo = "AdidasGloves:4200:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "AdidasGloves:0:" + 0;
             }
 
             writer.write(productInfo);

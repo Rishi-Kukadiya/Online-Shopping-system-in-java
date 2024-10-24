@@ -18,7 +18,7 @@ public class ceatb {
                 case 4 -> productInfo = "CricketBatCEAT:500:" + quantity;
                 case 5 -> productInfo = "CricketBatCEAT:1600:" + quantity;
                 case 6 -> productInfo = "CricketBatCEAT:1000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketBatCEAT:0:" + 0;
             }
 
             writer.write(productInfo);

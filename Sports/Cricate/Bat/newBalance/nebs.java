@@ -18,7 +18,7 @@ public class nebs {
                 case 4 -> productInfo = "CricketBatNewBalance:900:" + quantity;
                 case 5 -> productInfo = "CricketBatNewBalance:600:" + quantity;
                 // case 6 -> productInfo = "CricketBatGM:1000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketBatNewBalance:0:" + 0;
             }
 
             writer.write(productInfo);

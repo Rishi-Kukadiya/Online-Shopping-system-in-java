@@ -18,7 +18,7 @@ public class pumaboot {
                 case 4 -> productInfo = "PumaFootBallBoot:3000:" + quantity;
                 case 5 -> productInfo = "PumaFootBallBoot:4800:" + quantity;
                 case 6 -> productInfo = "PumaFootBallBoot:5500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "PumaFootBallBoot:0:" + 0;
             }
 
             writer.write(productInfo);

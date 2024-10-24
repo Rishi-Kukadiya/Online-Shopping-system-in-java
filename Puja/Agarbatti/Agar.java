@@ -53,7 +53,6 @@ public class Agar {
                 case 5->{
                     exits = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
             }
         }
     }

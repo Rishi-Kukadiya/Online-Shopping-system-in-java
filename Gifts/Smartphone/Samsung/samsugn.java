@@ -18,7 +18,7 @@ public class samsugn {
                 case 4 -> productInfo = "SamsugnSmartPhone:50000:" + quantity;
                 case 5 -> productInfo = "SamsugnSmartPhone:75000:" + quantity;
                 case 6 -> productInfo = "SamsugnSmartPhone:85000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "SamsugnSmartPhone:0:" + 0;
             }
 
             writer.write(productInfo);

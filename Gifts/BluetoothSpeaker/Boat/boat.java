@@ -19,7 +19,7 @@ public class boat {
                 case 4 -> productInfo = "BoatSpeaker:2000:" + quantity;
                 case 5 -> productInfo = "BoatSpeaker:3200:" + quantity;
                 case 6 -> productInfo = "BoatSpeaker:3700:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BoatSpeaker:0:" + 0;
             }
 
             writer.write(productInfo);

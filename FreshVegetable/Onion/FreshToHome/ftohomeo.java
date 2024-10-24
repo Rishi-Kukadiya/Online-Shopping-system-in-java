@@ -18,7 +18,7 @@ public class ftohomeo {
                 case 4 -> productInfo = "FreshToHomeOnion:55:" + quantity;
                 case 5 -> productInfo = "FreshToHomeOnion:90:" + quantity;
                 case 6 -> productInfo = "FreshToHomeOnion:80:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "FreshToHomeOnion:0:" + 0;
             }
 
             writer.write(productInfo);

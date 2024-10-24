@@ -18,7 +18,7 @@ public class rft {
                 case 4 -> productInfo = "RelianceCarrot:50:" + quantity;
                 case 5 -> productInfo = "RelianceCarrot:85:" + quantity;
                 case 6 -> productInfo = "RelianceCarrot:70:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "RelianceCarrot:0:" + 0;
             }
 
             writer.write(productInfo);

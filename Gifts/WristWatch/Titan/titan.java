@@ -18,7 +18,7 @@ public class titan {
                 case 4 -> productInfo = "TitanWatch:2000:" + quantity;
                 case 5 -> productInfo = "TitanWatch:3500:" + quantity;
                 case 6 -> productInfo = "TitanWatch:4500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "TitanWatch:0:" + 0;
             }
 
             writer.write(productInfo);

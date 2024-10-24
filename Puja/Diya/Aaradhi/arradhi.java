@@ -20,7 +20,7 @@ public class arradhi {
                 case 4 -> productInfo = "AarathiDiya:450:" + quantity;
                 case 5 -> productInfo = "AarathiDiya:1600:" + quantity;
                 case 6 -> productInfo = "AarathiDiya:1000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "AarathiDiya:0:" + 0;
             }
 
             writer.write(productInfo);

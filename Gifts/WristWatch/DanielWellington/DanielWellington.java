@@ -18,7 +18,7 @@ public class DanielWellington {
                 case 4 -> productInfo = "DanielWellingtonWristWatch:6000:" + quantity;
                 case 5 -> productInfo = "DanielWellingtonWristWatch:9000:" + quantity;
                 case 6 -> productInfo = "DanielWellingtonWristWatch:9500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "DanielWellingtonWristWatch:0:" + 0;
             }
 
             writer.write(productInfo);

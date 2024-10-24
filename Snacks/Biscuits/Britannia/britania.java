@@ -18,7 +18,7 @@ public class britania {
                 case 4 -> productInfo = "BritaniaBiscuits:35:" + quantity;
                 case 5 -> productInfo = "BritaniaBiscuits:50:" + quantity;
                 case 6 -> productInfo = "BritaniaBiscuits:45:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BritaniaBiscuits:0:" + 0;
             }
 
             writer.write(productInfo);

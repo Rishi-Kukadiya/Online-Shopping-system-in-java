@@ -18,7 +18,7 @@ public class shrikishna {
                 case 4 -> productInfo = "ShrikishnaMysorePak:330:" + quantity;
                 case 5 -> productInfo = "ShrikishnaMysorePak:450:" + quantity;
                 case 6 -> productInfo = "ShrikishnaMysorePak:520:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "ShrikishnaMysorePak:0:" + 0;
             }
 
             writer.write(productInfo);

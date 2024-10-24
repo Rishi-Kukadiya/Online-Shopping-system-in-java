@@ -18,7 +18,7 @@ public class JBL{
                 case 4 -> productInfo = "JBLspeaker:2000:" + quantity;
                 case 5 -> productInfo = "JBLspeaker:4500:" + quantity;
                 case 6 -> productInfo = "JBLspeaker:5500:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "JBLspeaker:0:" + 0;
             }
 
             writer.write(productInfo);

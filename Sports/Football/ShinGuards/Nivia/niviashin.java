@@ -18,7 +18,7 @@ public class niviashin {
                 case 4 -> productInfo = "NiviaShinGuards:300:" + quantity;
                 case 5 -> productInfo = "NiviaShinGuards:470:" + quantity;
                 case 6 -> productInfo = "NiviaShinGuards:550:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "NiviaShinGuards:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class urbanc {
                 case 4 -> productInfo = "UrbanPlatterCashews:650:" + quantity;
                 case 5 -> productInfo = "UrbanPlatterCashews:1000:" + quantity;
                 case 6 -> productInfo = "UrbanPlatterCashews:1200:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "UrbanPlatterCashews:0:" + 0;
             }
 
             writer.write(productInfo);

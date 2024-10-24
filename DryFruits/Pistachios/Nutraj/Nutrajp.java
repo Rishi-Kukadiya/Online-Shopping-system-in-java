@@ -18,7 +18,7 @@ public class Nutrajp {
                 case 4 -> productInfo = "NutrajPistachios:700:" + quantity;
                 case 5 -> productInfo = "NutrajPistachios:1200:" + quantity;
                 case 6 -> productInfo = "NutrajPistachios:1350:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "NutrajPistachios:0:" + 0;
             }
 
             writer.write(productInfo);

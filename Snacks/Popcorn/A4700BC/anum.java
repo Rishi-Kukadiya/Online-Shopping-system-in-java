@@ -18,7 +18,7 @@ public class anum {
                 case 4 -> productInfo = "anumPopcorn:160:" + quantity;
                 case 5 -> productInfo = "anumPopcorn:200:" + quantity;
                 case 6 -> productInfo = "anumPopcorn:220:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "anumPopcorn:0:" + 0;
             }
 
             writer.write(productInfo);

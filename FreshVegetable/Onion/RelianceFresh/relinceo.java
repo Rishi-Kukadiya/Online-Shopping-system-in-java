@@ -18,7 +18,7 @@ public class relinceo {
                 case 4 -> productInfo = "RelianceFreshOnion:45:" + quantity;
                 case 5 -> productInfo = "RelianceFreshOnion:80:" + quantity;
                 case 6 -> productInfo = "RelianceFreshOnion:70:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "RelianceFreshOnion:0:" + 0;
             }
 
             writer.write(productInfo);

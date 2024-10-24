@@ -20,7 +20,7 @@ public class patanjali {
                 case 4 -> productInfo = "PatanjaliKumKum:90:" + quantity;
                 case 5 -> productInfo = "PatanjaliKumKum:380:" + quantity;
                 case 6 -> productInfo = "PatanjaliKumKum:300:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "PatanjaliKumKum:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class fth {
                 case 4 -> productInfo = "FreshToHomeCarrot:60:" + quantity;
                 case 5 -> productInfo = "FreshToHomeCarrot:100:" + quantity;
                 case 6 -> productInfo = "FreshToHomeCarrot:80:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "FreshToHomeCarrot:0:" + 0;
             }
 
             writer.write(productInfo);

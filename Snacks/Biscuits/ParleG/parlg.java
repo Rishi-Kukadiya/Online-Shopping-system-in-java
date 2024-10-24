@@ -18,7 +18,7 @@ public class parlg {
                 case 4 -> productInfo = "ParleGBiscuits:15:" + quantity;
                 case 5 -> productInfo = "ParleGBiscuits:25:" + quantity;
                 case 6 -> productInfo = "ParleGBiscuits:30:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "ParleGBiscuits:0:" + 0;
             }
 
             writer.write(productInfo);

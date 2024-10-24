@@ -18,7 +18,7 @@ public class niviboot {
                 case 4 -> productInfo = "NiviaFootBallBoot:1200:" + quantity;
                 case 5 -> productInfo = "NiviaFootBallBoot:1900:" + quantity;
                 case 6 -> productInfo = "NiviaFootBallBoot:2200:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "NiviaFootBallBoot:0:" + 0;
             }
 
             writer.write(productInfo);

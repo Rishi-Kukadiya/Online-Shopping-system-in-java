@@ -18,7 +18,7 @@ public class unclechheps {
                 case 4 -> productInfo = "UncleChipsPotatoChips:50:" + quantity;
                 case 5 -> productInfo = "UncleChipsPotatoChips:70:" + quantity;
                 case 6 -> productInfo = "UncleChipsPotatoChips:80:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "UncleChipsPotatoChips:0:" + 0;
             }
 
             writer.write(productInfo);

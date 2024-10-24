@@ -18,7 +18,7 @@ public class sgsb {
                 case 4 -> productInfo = "CricketBatSG:1900:" + quantity;
                 case 5 -> productInfo = "CricketBatSG:1500:" + quantity;
                 // case 6 -> productInfo = "CricketBatGM:1000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketBatSG:0:" + 0;
             }
 
             writer.write(productInfo);

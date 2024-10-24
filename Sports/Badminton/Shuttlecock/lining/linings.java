@@ -18,7 +18,7 @@ public class linings {
                 case 4 -> productInfo = "badmintonShutterCockLining:350:" + quantity;
                 case 5 -> productInfo = "badmintonShutterCockLining:550:" + quantity;
                 case 6 -> productInfo = "badmintonShutterCockLining:620:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "badmintonShutterCockLining:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -20,7 +20,7 @@ public class Balbot {
                 case 4 -> productInfo = "TennisShoesBablot:5200:" + quantity;
                 case 5 -> productInfo = "TennisShoesBablot:8000:" + quantity;
                 case 6 -> productInfo = "TennisShoesBablot:9000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "TennisShoesBablot:0:" + 0;
             }
 
             writer.write(productInfo);

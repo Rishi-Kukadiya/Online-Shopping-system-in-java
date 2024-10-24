@@ -18,7 +18,7 @@ public static void Product(byte product, int quantity) {
                 case 4 -> productInfo = "TennisRacketBablot:5200:" + quantity;
                 case 5 -> productInfo = "TennisRacketBablot:8000:" + quantity;
                 case 6 -> productInfo = "TennisRacketBablot:9000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "TennisRacketBablot:0:" + 0;
             }
 
             writer.write(productInfo);

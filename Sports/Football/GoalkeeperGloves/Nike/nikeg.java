@@ -18,7 +18,7 @@ public class nikeg {
                 case 4 -> productInfo = "NikeGloves:2000:" + quantity;
                 case 5 -> productInfo = "NikeGloves:3200:" + quantity;
                 case 6 -> productInfo = "NikeGloves:3700:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default ->  productInfo = "NikeGloves:0:" + 0;
             }
 
             writer.write(productInfo);

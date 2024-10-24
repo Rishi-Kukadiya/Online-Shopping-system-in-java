@@ -18,7 +18,7 @@ public class HugoBoss {
                 case 4 -> productInfo = "HugoBossPerfume:5000:" + quantity;
                 case 5 -> productInfo = "HugoBossPerfume:7200:" + quantity;
                 case 6 -> productInfo = "HugoBossPerfume:8000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "HugoBossPerfume:0:" + 0;
             }
 
             writer.write(productInfo);

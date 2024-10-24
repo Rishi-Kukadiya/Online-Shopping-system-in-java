@@ -18,7 +18,7 @@ public class pipopop {
                 case 4 -> productInfo = "PipoPopcorn:35:" + quantity;
                 case 5 -> productInfo = "PipoPopcorn:50:" + quantity;
                 case 6 -> productInfo = "PipoPopcorn:45:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "PipoPopcorn:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class amazoncarrot {
                 case 4 -> productInfo = "amazonFreshCarrot:35:" + quantity;
                 case 5 -> productInfo = "amazonFreshCarrot:60:" + quantity;
                 case 6 -> productInfo = "amazonFreshCarrot:50:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "amazonFreshCarrot:0:" + 0;
             }
 
             writer.write(productInfo);

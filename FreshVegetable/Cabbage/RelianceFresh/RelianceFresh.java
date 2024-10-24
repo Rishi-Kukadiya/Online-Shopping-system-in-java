@@ -18,7 +18,7 @@ public class RelianceFresh {
                 case 4 -> productInfo = "RelianceFreshCabbge:28:" + quantity;
                 case 5 -> productInfo = "RelianceFreshCabbge:53:" + quantity;
                 case 6 -> productInfo = "RelianceFreshCabbge:45:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "RelianceFreshCabbge:0:" + 0;
             }
 
             writer.write(productInfo);

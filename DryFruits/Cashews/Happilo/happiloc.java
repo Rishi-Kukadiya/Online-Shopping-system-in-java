@@ -18,7 +18,7 @@ public class happiloc {
                 case 4 -> productInfo = "HeppiloCashews:600:" + quantity;
                 case 5 -> productInfo = "HeppiloCashews:950:" + quantity;
                 case 6 -> productInfo = "HeppiloCashews:1150:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "HeppiloCashews:0:" + 0;
             }
 
             writer.write(productInfo);

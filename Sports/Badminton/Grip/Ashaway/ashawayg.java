@@ -18,7 +18,7 @@ public class ashawayg {
                 case 4 -> productInfo = "badmintonGripAshaway:80:" + quantity;
                 case 5 -> productInfo = "badmintonGripAshaway:120:" + quantity;
                 case 6 -> productInfo = "badmintonGripAshaway:140:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "badmintonGripAshaway:0:" + 0;
             }
 
             writer.write(productInfo);

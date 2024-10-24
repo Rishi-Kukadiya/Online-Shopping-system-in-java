@@ -18,7 +18,7 @@ public class katespared {
                 case 4 -> productInfo = "KateSpadeHandbag:35000:" + quantity;
                 case 5 -> productInfo = "KateSpadeHandbag:47000:" + quantity;
                 case 6 -> productInfo = "KateSpadeHandbag:52000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "KateSpadeHandbag:0:" + 0;
             }
 
             writer.write(productInfo);

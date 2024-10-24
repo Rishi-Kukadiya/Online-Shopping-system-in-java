@@ -18,7 +18,7 @@ public class Vedakaw {
                 case 4 -> productInfo = "VedakaWalnuts:820:" + quantity;
                 case 5 -> productInfo = "VedakaWalnuts:1320:" + quantity;
                 case 6 -> productInfo = "VedakaWalnuts:1620:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "VedakaWalnuts:0:" + 0;
             }
 
             writer.write(productInfo);

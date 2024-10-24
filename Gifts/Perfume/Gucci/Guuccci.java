@@ -18,7 +18,7 @@ public class Guuccci {
                 case 4 -> productInfo = "XIAOMISmartPhone:7000:" + quantity;
                 case 5 -> productInfo = "XIAOMISmartPhone:9500:" + quantity;
                 case 6 -> productInfo = "XIAOMISmartPhone:11000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "XIAOMISmartPhone:0:" + 0;
             }
 
             writer.write(productInfo);

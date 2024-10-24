@@ -20,7 +20,7 @@ public class brasskingdom {
                 case 4 -> productInfo = "BrassKingdomDiya:600:" + quantity;
                 case 5 -> productInfo = "BrassKingdomDiya:1700:" + quantity;
                 case 6 -> productInfo = "BrassKingdomDiya:1150:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BrassKingdomDiya:0:" + 0;
             }
 
             writer.write(productInfo);

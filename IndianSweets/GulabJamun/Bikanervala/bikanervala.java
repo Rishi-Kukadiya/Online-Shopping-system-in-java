@@ -18,7 +18,7 @@ public class bikanervala {
                 case 4 -> productInfo = "HaldiramGulabJamun:220:" + quantity;
                 case 5 -> productInfo = "HaldiramGulabJamun:300:" + quantity;
                 case 6 -> productInfo = "HaldiramGulabJamun:320:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "HaldiramGulabJamun:0:" + 0;
             }
 
             writer.write(productInfo);

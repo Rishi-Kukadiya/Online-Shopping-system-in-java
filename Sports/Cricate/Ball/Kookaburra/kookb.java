@@ -18,7 +18,7 @@ public class kookb {
                 case 4 -> productInfo = "CricketBallKookaburra:400:" + quantity;
                 case 5 -> productInfo = "CricketBallKookaburra:750:" + quantity;
                 case 6 -> productInfo = "CricketBallKookaburra:850:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketBallKookaburra:0:" + 0;
             }
 
             writer.write(productInfo);

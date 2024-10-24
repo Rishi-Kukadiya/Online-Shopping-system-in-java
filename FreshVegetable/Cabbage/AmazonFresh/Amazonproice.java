@@ -18,7 +18,7 @@ public class Amazonproice {
                 case 4 -> productInfo = "AmazonFreshCabbage:40:" + quantity;
                 case 5 -> productInfo = "AmazonFreshCabbage:65:" + quantity;
                 case 6 -> productInfo = "AmazonFreshCabbage:50:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "AmazonFreshCabbage:0:" + 0; 
             }
 
             writer.write(productInfo);

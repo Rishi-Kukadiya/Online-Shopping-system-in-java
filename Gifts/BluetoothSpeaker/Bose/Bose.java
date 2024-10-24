@@ -18,7 +18,7 @@ public class Bose {
                 case 4 -> productInfo = "BoseSpeaker:11000:" + quantity;
                 case 5 -> productInfo = "BoseSpeaker:14000:" + quantity;
                 case 6 -> productInfo = "BoseSpeaker:16000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "BoseSpeaker:0:" + 0;
             }
 
             writer.write(productInfo);

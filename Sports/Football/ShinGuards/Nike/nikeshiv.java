@@ -18,7 +18,7 @@ public class nikeshiv {
                 case 4 -> productInfo = "NikeShinGuards:500:" + quantity;
                 case 5 -> productInfo = "NikeShinGuards:950:" + quantity;
                 case 6 -> productInfo = "NikeShinGuards:1100:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "NikeShinGuards:0:" + 0;
             }
 
             writer.write(productInfo);

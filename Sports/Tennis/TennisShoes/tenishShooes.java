@@ -55,7 +55,6 @@ public class tenishShooes {
                 case  5 ->{
                     exits = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
             }
         }
 

@@ -18,7 +18,7 @@ public class yonexs {
                 case 4 -> productInfo = "badmintonShoesYonex:3000:" + quantity;
                 case 5 -> productInfo = "badmintonShoesYonex:4200:" + quantity;
                 case 6 -> productInfo = "badmintonShoesYonex:5200:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "badmintonShoesYonex:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class layies {
                 case 4 -> productInfo = "LaysPotatoChips:70:" + quantity;
                 case 5 -> productInfo = "LaysPotatoChips:120:" + quantity;
                 case 6 -> productInfo = "LaysPotatoChips:90:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "LaysPotatoChips:0:" + 0;
             }
 
             writer.write(productInfo);

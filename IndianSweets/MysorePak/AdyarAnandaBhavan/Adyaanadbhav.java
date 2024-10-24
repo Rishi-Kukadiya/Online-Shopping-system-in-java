@@ -18,7 +18,7 @@ public class Adyaanadbhav {
                 case 4 -> productInfo = "AdyaanabhavMysorePak:320:" + quantity;
                 case 5 -> productInfo = "AdyaanabhavMysorePak:420:" + quantity;
                 case 6 -> productInfo = "AdyaanabhavMysorePak:490:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "AdyaanabhavMysorePak:0:" + 0;
             }
 
             writer.write(productInfo);

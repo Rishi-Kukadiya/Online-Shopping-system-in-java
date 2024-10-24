@@ -18,7 +18,7 @@ public class yonexg {
                 case 4 -> productInfo = "badmintonGripYonex:70:" + quantity;
                 case 5 -> productInfo = "badmintonGripYonex:95:" + quantity;
                 case 6 -> productInfo = "badmintonGripYonex:110:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "badmintonGripYonex:0:" + 0;
             }
 
             writer.write(productInfo);

@@ -18,7 +18,7 @@ public class addidasb {
                 case 4 -> productInfo = "CricketBatAdidas:800:" + quantity;
                 case 5 -> productInfo = "CricketBatAdidas:900:" + quantity;
                 // case 6 -> productInfo = "CricketBatAdidas:650:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "CricketBatAdidas:0:" + 0;
             }
 
             writer.write(productInfo);

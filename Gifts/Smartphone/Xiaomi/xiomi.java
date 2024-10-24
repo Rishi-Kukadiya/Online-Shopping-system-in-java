@@ -18,7 +18,7 @@ public class xiomi {
                 case 4 -> productInfo = "XIomismartPhone:15000:" + quantity;
                 case 5 -> productInfo = "XIomismartPhone:27000:" + quantity;
                 case 6 -> productInfo = "XIomismartPhone:32000:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "XIomismartPhone:0:" + 0;
             }
 
             writer.write(productInfo);

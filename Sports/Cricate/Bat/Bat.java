@@ -94,7 +94,6 @@ public class Bat {
                 case 9->{
                     exits = true;
                 }
-                default -> throw new AssertionError("Invalid choice, please try again.");
             }
         }
 

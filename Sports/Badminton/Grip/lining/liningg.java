@@ -18,7 +18,7 @@ public class liningg {
                 case 4 -> productInfo = "badmintonGripLinig:80:" + quantity;
                 case 5 -> productInfo = "badmintonGripLinig:110:" + quantity;
                 case 6 -> productInfo = "badmintonGripLinig:130:" + quantity;
-                default -> throw new IllegalArgumentException("Invalid choice");
+                default -> productInfo = "badmintonGripLinig:0:" + 0;
             }
 
             writer.write(productInfo);
